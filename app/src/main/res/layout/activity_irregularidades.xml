@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resgistrar Irregularidade"
+        android:textSize="48sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        />
+
+
+    <TextView
+        android:id="@+id/carPlate"
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        app:cornerRadius="50dp"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text=""/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBuscarPlacaIrregularidade"
+        android:textColor="@color/indigo_900"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        app:cornerRadius="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Registrar"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

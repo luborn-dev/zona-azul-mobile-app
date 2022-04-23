@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "217892543989",
+    "project_id": "teste1104-156ec",
+    "storage_bucket": "teste1104-156ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217892543989:android:2722f4cbac6a0696fc14bc",
+        "android_client_info": {
+          "package_name": "br.com.aulaspuc.exercicio01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKgs0s5GoJaUdlLtYdiDUEHdyCU-Vzy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217892543989:android:dd896cdf82cd0613fc14bc",
+        "android_client_info": {
+          "package_name": "br.com.aulaspuc.mcommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKgs0s5GoJaUdlLtYdiDUEHdyCU-Vzy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217892543989:android:b5a9ce29e22fdef4fc14bc",
+        "android_client_info": {
+          "package_name": "br.com.aulaspuc.sistemazonaazul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKgs0s5GoJaUdlLtYdiDUEHdyCU-Vzy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217892543989:android:f4741ebaa5b5659afc14bc",
+        "android_client_info": {
+          "package_name": "br.com.aulaspuc.testefunction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKgs0s5GoJaUdlLtYdiDUEHdyCU-Vzy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217892543989:android:cb2fef0a0eedaa0afc14bc",
+        "android_client_info": {
+          "package_name": "com.example.zonaazulfiscal.paginainicial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKgs0s5GoJaUdlLtYdiDUEHdyCU-Vzy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217892543989-ivfsmthldrltsr8c7c3es7bhdpkmgg6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

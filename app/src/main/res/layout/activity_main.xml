@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiscal"
+        android:textSize="48sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVerificarVeiculo"
+        app:icon="@drawable/ic_baseline_directions_car_24"
+        app:iconTint="@color/indigo_900"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:cornerRadius="50dp"
+        android:textColor="@color/indigo_900"
+        android:backgroundTint="@color/white"
+        android:text="Consultar Situação do veiculo"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegistrarIrregularidade"
+        app:icon="@drawable/ic_baseline_photo_camera_24"
+        app:iconTint="@color/indigo_900"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:cornerRadius="50dp"
+        android:textColor="@color/indigo_900"
+        android:backgroundTint="@color/white"
+        android:text="Registrar Irregularidade"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnItnerarioFiscalizacao"
+        app:icon="@drawable/ic_baseline_create_24"
+        app:iconTint="@color/indigo_900"
+        android:textColor="@color/indigo_900"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:cornerRadius="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Itinerario de fiscalização"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
