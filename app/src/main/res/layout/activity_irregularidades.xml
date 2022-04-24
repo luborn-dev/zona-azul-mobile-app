@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resgistrar Irregularidade"
-        android:textSize="48sp"
+        android:textSize="32sp"
         android:textAlignment="center"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
@@ -24,8 +24,8 @@
 
     <TextView
         android:id="@+id/carPlate"
-        android:layout_marginTop="30dp"
-        android:layout_width="350dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@color/white"
         android:layout_gravity="center"
@@ -35,11 +35,66 @@
         android:textAlignment="center"
         android:text=""/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clique no quadrado para adicionar cada foto correspondente"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageOne"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/frente"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageTwo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/ladodois"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageThree"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ladoum"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageFour"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/tras"
+            />
+    </LinearLayout>
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBuscarPlacaIrregularidade"
         android:textColor="@color/indigo_900"
         android:textSize="18sp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_gravity="center"

@@ -27,7 +27,8 @@
         android:layout_marginTop="30dp"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:hint="Digite a Placa">
+        android:hint="Digite a Placa"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/entryPlaca"
@@ -35,6 +36,10 @@
             android:layout_height="wrap_content"
             />
     </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBuscarVeiculo"

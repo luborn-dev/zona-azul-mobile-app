@@ -34,20 +34,7 @@
         android:backgroundTint="@color/white"
         android:text="Consultar Situação do veiculo"
         />
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnRegistrarIrregularidade"
-        app:icon="@drawable/ic_baseline_photo_camera_24"
-        app:iconTint="@color/indigo_900"
-        android:textSize="16sp"
-        android:layout_marginTop="40dp"
-        android:layout_width="280dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center"
-        app:cornerRadius="50dp"
-        android:textColor="@color/indigo_900"
-        android:backgroundTint="@color/white"
-        android:text="Registrar Irregularidade"
-        />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnItnerarioFiscalizacao"
         app:icon="@drawable/ic_baseline_create_24"

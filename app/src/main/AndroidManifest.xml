@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SistemaZonaAzul">
         <activity
+            android:name=".IrregularidadesSemConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".IrregularidadesFotos"
+            android:exported="false" />
+        <activity
             android:name=".Consultar"
             android:exported="false" />
         <activity
